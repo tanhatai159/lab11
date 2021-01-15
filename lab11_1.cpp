@@ -4,16 +4,14 @@ using namespace std;
 #include<iostream>
 using namespace std;
 
-int fibonacci(int);
+long long int fibonacci(long long int);
 
-int main(){
-    int x;
-    cin >> x;
-    cout << fibonacci(x);
+int main(){  
+    cout << fibonacci(50);
     return 0; 
 }
 
-int fibonacci(int n){
+long long int fibonacci(long long int n){
     if(n == 0){
         return 0;
     }
